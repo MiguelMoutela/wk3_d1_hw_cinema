@@ -67,7 +67,9 @@ VALUES ('Guardians of the Galaxy 2', 2017, '12:00');
 
 10. The cinema would also like to make the Guardian movies a back to back feature. Update the 'Guardians of the Galaxy' show time from 18:55 to 21:30
 
-
+UPDATE movies
+SET show_time = '21:30'
+WHERE title = 'Guardians of the Galaxy 2' AND show_time = '15:30';
 
 ## Extension
 
